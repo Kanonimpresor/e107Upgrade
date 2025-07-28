@@ -26,3 +26,32 @@ The appearance of the maintenance page is controlled through a specific template
 For our implementation, we created a modern, responsive design with a full-screen background image and a content box with a "glassmorphism" effect (background blur). All CSS was embedded directly into `sitedown_template.php` to ensure it loads and functions correctly.
 
 **Summary:** `sitedown_template.php` is more than just a "site down" page. It's an essential communication tool and a technical component that, when configured correctly, protects your SEO and maintains a professional image even during maintenance tasks.
+
+# Managing Maintenance Mode
+Follow these steps to control your website's maintenance page from the admin panel.
+
+## 1. Activating Maintenance Mode
+When you need to perform updates or significant changes, activate maintenance mode to display an informational page to your visitors.
+
+1. Navigate to your Admin Panel: Log in as an administrator.
+2. Go to Tools: In the admin menu, find and click on Tools.
+3. Access Maintenance: Within Tools, select the Maintenance option.
+4. Check the box: Tick the checkbox labeled "Activate maintenance mode".
+5. Save Settings: Click the "Save Settings" button. Your site is now in maintenance mode.
+
+## 2. Editing the Maintenance Message
+You can customize the text your users see on the maintenance page.
+
+1. Stay on the Maintenance page (Tools > Maintenance).
+2. Find the text area: Locate the large text field, usually labeled "Maintenance Text".
+3. Write your message: Enter the text you want to display. You can use HTML to format text, add links, or images.
+3. Save Settings: Click "Save Settings" to update the message.
+
+## 3. Deactivating Maintenance Mode
+Once you have finished your work, follow these steps to bring your site back online.
+
+1. Go back to Tools > Maintenance.
+2. Uncheck the box: Untick the "Activate maintenance mode" checkbox.
+3. Save Settings: Click "Save Settings". Your website will be visible to all users again.
+
+>Important Note: As the Main Administrator (User ID 1), you will always see the full website, even in maintenance mode. To see the maintenance page as your visitors see it, use a different browser where you are not logged in, or open a private/incognito window.
