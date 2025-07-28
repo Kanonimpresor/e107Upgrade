@@ -1,4 +1,4 @@
-### The Role of `sitedown.php`
+### The Role of `sitedown_template.php`
 
 #### (Choose your language below / Escolha o seu idioma abaixo / Elija su idioma abajo)
 [![English](https://img.shields.io/badge/Language-English-blue)](README.md)
@@ -6,7 +6,7 @@
 [![Español](https://img.shields.io/badge/Language-Español-red)](README.es-ES.md)
 ---
 
-When your site needs a break for updates or maintenance, `sitedown.php` becomes the public face of your website. It's the gatekeeper that informs visitors you're working behind the scenes and will be back soon, always maintaining a professional image.
+When your site needs a break for updates or maintenance, `sitedown_template.php` becomes the public face of your website. It's the gatekeeper that informs visitors you're working behind the scenes and will be back soon, always maintaining a professional image.
 
 #### Key Functionality
 
@@ -25,4 +25,4 @@ The appearance of the maintenance page is controlled through a specific template
 
 For our implementation, we created a modern, responsive design with a full-screen background image and a content box with a "glassmorphism" effect (background blur). All CSS was embedded directly into `sitedown_template.php` to ensure it loads and functions correctly.
 
-**Summary:** `sitedown.php` is more than just a "site down" page. It's an essential communication tool and a technical component that, when configured correctly, protects your SEO and maintains a professional image even during maintenance tasks.
+**Summary:** `sitedown_template.php` is more than just a "site down" page. It's an essential communication tool and a technical component that, when configured correctly, protects your SEO and maintains a professional image even during maintenance tasks.
